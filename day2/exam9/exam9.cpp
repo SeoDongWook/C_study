@@ -1,8 +1,8 @@
-// exam7.cpp : 응용 프로그램에 대한 진입점을 정의합니다.
+// exam9.cpp : 응용 프로그램에 대한 진입점을 정의합니다.
 //
 
 #include "stdafx.h"
-#include "exam7.h"
+#include "exam9.h"
 
 #define MAX_LOADSTRING 100
 
@@ -29,7 +29,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
-    LoadStringW(hInstance, IDC_EXAM7, szWindowClass, MAX_LOADSTRING);
+    LoadStringW(hInstance, IDC_EXAM9, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
 
     // 응용 프로그램 초기화를 수행합니다.
@@ -38,7 +38,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         return FALSE;
     }
 
-    HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_EXAM7));
+    HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_EXAM9));
 
     MSG msg;
 
@@ -73,10 +73,10 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.cbClsExtra     = 0;
     wcex.cbWndExtra     = 0;
     wcex.hInstance      = hInstance;
-    wcex.hIcon          = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_EXAM7));
+    wcex.hIcon          = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_EXAM9));
     wcex.hCursor        = LoadCursor(nullptr, IDC_ARROW);
     wcex.hbrBackground  = (HBRUSH)(COLOR_WINDOW+1);
-    wcex.lpszMenuName   = MAKEINTRESOURCEW(IDC_EXAM7);
+    wcex.lpszMenuName   = MAKEINTRESOURCEW(IDC_EXAM9);
     wcex.lpszClassName  = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
 
@@ -147,24 +147,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hWnd, &ps);
             // TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다.
+
 			HBRUSH myBrush, oldBrush;
-
-			myBrush = (HBRUSH)GetStockObject(GRAY_BRUSH);
-			oldBrush = (HBRUSH)SelectObject(hdc,myBrush);
-
-			Ellipse(hdc, 100, 100, 200, 200);
-
-			SelectObject(hdc, oldBrush);
-
-			Ellipse(hdc, 300, 100, 400, 200);
-
-			//---------------------------------------------
-			myBrush = (HBRUSH)CreateSolidBrush(RGB(255, 0, 0));
+			myBrush = CreateSolidBrush(RGB(255, 0, 0));
 			oldBrush = (HBRUSH)SelectObject(hdc, myBrush);
 
-			Ellipse(hdc, 300, 100, 400, 200);
+			Rectangle(hdc, 100, 100, 200, 200);
+
 			SelectObject(hdc, oldBrush);
 			DeleteObject(myBrush);
+
+			//투명 브러시 사용
+			myBrush = (HBRUSH)GetStockObject(NULL_BRUSH);
+			oldBrush = (HBRUSH)SelectObject(hdc, myBrush);
+
+			Rectangle(hdc, 150, 150, 250, 250);
+			SelectObject(hdc, oldBrush);
 
             EndPaint(hWnd, &ps);
         }
