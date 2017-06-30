@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  exam9.cpp
+c:\users\kict-11\desktop\c_study\day8\exam9\exam9.cpp(15): warning C4129: ',': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+  exam9.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam9.exe
+  exam9.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam9.pdb (Partial PDB)
