@@ -1,0 +1,5 @@
+﻿  exam6.cpp
+c:\users\kict-11\desktop\c_study\day8\exam6\exam6.cpp(23): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\kict-11\desktop\c_study\day8\exam6\exam6.cpp(23): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+  exam6.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam6.exe
+  exam6.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam6.pdb (Partial PDB)
