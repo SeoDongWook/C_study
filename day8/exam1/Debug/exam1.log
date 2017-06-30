@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  exam1.cpp
+c:\users\kict-11\desktop\c_study\day8\exam1\exam1.cpp(15): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+c:\users\kict-11\desktop\c_study\day8\exam1\exam1.cpp(15): warning C4309: '=': 상수 값이 잘립니다.
+  exam1.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam1.exe
+  exam1.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam1.pdb (Partial PDB)
