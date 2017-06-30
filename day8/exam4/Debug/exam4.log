@@ -1,0 +1,7 @@
+﻿  exam4.cpp
+c:\users\kict-11\desktop\c_study\day8\exam4\exam4.cpp(151): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+c:\users\kict-11\desktop\c_study\day8\exam4\exam4.cpp(154): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(261): note: 'wcstok' 선언을 참조하십시오.
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam4.exe
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day8\Debug\exam4.pdb (Partial PDB)
