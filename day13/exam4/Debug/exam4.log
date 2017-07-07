@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  exam4.cpp
+c:\users\kict-11\desktop\c_study\day13\exam4\exam4.cpp(19): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+c:\users\kict-11\desktop\c_study\day13\exam4\exam4.cpp(28): error C2440: '=': 'int (__cdecl *)(void *,void *)'에서 'void (__cdecl *)(void *,void *)'(으)로 변환할 수 없습니다.
+  c:\users\kict-11\desktop\c_study\day13\exam4\exam4.cpp(28): note: 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
