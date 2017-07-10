@@ -1,0 +1,5 @@
+﻿  exam8.cpp
+c:\users\kict-11\desktop\c_study\day14\exam8\exam8.cpp(17): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+c:\users\kict-11\desktop\c_study\day14\exam8\exam8.cpp(19): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+  exam8.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day14\Debug\exam8.exe
+  exam8.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day14\Debug\exam8.pdb (Partial PDB)
