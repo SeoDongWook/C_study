@@ -1,0 +1,7 @@
+﻿  exam4.cpp
+c:\users\kict-11\desktop\c_study\day14\exam4\exam4.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+c:\users\kict-11\desktop\c_study\day14\exam4\exam4.cpp(18): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+c:\users\kict-11\desktop\c_study\day14\exam4\exam4.cpp(19): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day14\Debug\exam4.exe
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day14\Debug\exam4.pdb (Partial PDB)
