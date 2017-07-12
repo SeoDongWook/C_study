@@ -1,0 +1,5 @@
+﻿  exam4.cpp
+c:\users\kict-11\desktop\c_study\day16\exam4\exam4.cpp(135): warning C4305: '+=': 'double'에서 'Gdiplus::REAL'(으)로 잘립니다.
+c:\users\kict-11\desktop\c_study\day16\exam4\exam4.cpp(138): warning C4305: '-=': 'double'에서 'Gdiplus::REAL'(으)로 잘립니다.
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day16\Debug\exam4.exe
+  exam4.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day16\Debug\exam4.pdb (Partial PDB)
