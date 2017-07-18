@@ -9,7 +9,7 @@ int main()
 	int ary[5] = { 10, 20, 30, 40, 50 };
 	int *pAry;
 
-	pAry = ary;
+	pAry = ary; // pAry포인터에 배열을 넣음.
 
 	for (int i = 0; i < 5; i++) {
 		printf("%d %d \,", pAry[i], *(pAry+i));

@@ -130,10 +130,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		CreateWindow(L"edit", NULL, WS_CHILD | WS_VISIBLE | WS_BORDER,
 			0, 0, 120, 25, hWnd, (HMENU)3001, hInst, NULL);
 		CreateWindow(L"button",L"OK", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
-			140, 0, 120, 25, hWnd, (HMENU)4001, hInst, NULL);
+			140, 0, 120, 25, hWnd, (HMENU)4002, hInst, NULL);
 	}
 	break;
-
     case WM_COMMAND:
         {
             int wmId = LOWORD(wParam);
@@ -150,7 +149,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				int nNum = _wtoi(szBuf);
 
 				if (nNum > 10 && nNum < 20) {
-					swprintf_s(szBuf, 256, L"%d는 10에서 20사이의 값 입니다.",nNum);
+					swprintf_s(szBuf, 256, L"%d는 10에서 20사이의 값입니다.",nNum);
 					TextOut(hdc, 0, 120,szBuf, wcslen(szBuf));
 				}
 				else {

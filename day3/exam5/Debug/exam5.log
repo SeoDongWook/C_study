@@ -1,3 +1,2 @@
 ﻿  exam5.cpp
-  exam5.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day3\Debug\exam5.exe
-  exam5.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day3\Debug\exam5.pdb (Partial PDB)
+c:\users\kict-11\desktop\c_study\day3\exam5\exam5.cpp(173): error C2065: 'hDC': 선언되지 않은 식별자입니다.

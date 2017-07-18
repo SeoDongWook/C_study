@@ -30,7 +30,6 @@ int main()
 		for (int i = nIndex; i < nBufSize; i++) {
 			nBuf[i - 1] = nBuf[i];
 		}
-
 		nBuf[--num] = 0;
 
 		dumpBuf(nBuf, nBufSize);

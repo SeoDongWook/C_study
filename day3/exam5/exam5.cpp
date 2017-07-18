@@ -168,6 +168,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				ReleaseDC(hWnd, hDC);
 			}
 				break;
+			case ID_MAKESHAPE_RECTANGLE:
+			{
+				Rectangle(hDC,100,100, 400, 400);
+
+
+			}
+			break;
             default:
                 return DefWindowProc(hWnd, message, wParam, lParam);
             }

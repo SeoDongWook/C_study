@@ -118,8 +118,7 @@ void OnRender(double fDelta, Graphics *pGrp)
 	Pen pen(Color(0, 0, 0));
 	//Pen pen2(Color(255, 0, 0));
 	pGrp->DrawRectangle(&pen, 0, 0, 320, 240);
-	pGrp->DrawLine(&pen, 0, 120, 320, 120);
-	pGrp->DrawLine(&pen, 160, 0, 160, 240);
+
 
 	Matrix originMat(1, 0, 0, 1, 160, 120);
 	pGrp->SetTransform(&originMat);

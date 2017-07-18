@@ -173,8 +173,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			{
 				Matrix oldMat;
 				grp.GetTransform(&oldMat);
-				grp.TranslateTransform(-50, 50);
-				grp.RotateTransform(45);
+				grp.TranslateTransform(-50, 0); //순서만 바뀌어도 결과가 바뀐다.
+				grp.RotateTransform(45);       // 순서는 외우자
+				grp.ScaleTransform(0.5, 0.5); //  TRS 혹은 SRT
+
 				grp.DrawRectangle(&pen, -15, -10, 30, 20);
 				grp.SetTransform(&oldMat);
 			}

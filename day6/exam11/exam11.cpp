@@ -176,11 +176,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_CREATE:
 	{
 		//********** 함수(참조 헤더)를 이용하여 만든것.
-		makeMiniEditBox(hWnd, 0, 0, 3001);
-		makeMiniEditBox(hWnd, 105, 0, 3002);
-		makeMiniEditBox(hWnd, 210, 0, 3003);
-		makeMiniEditBox(hWnd, 0, 30, 3004);
-		makeMiniEditBox(hWnd, 105, 30, 3005);
+		makeMiniEditBox(hWnd, 0, 0, 3001);   //국어
+		makeMiniEditBox(hWnd, 105, 0, 3002); //영어
+		makeMiniEditBox(hWnd, 210, 0, 3003); //수학
+		makeMiniEditBox(hWnd, 0, 30, 3004);  //합계
+		makeMiniEditBox(hWnd, 105, 30, 3005);//평균
 
 		//**************함수(참조 헤더)를 이용해 버튼 생성.
 		makeSimpleButton(hWnd, L"Ok", 315, 0, 4001);

@@ -167,10 +167,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			graphics.FillRectangle(&brushGreen, 100, 100, 200, 200); //&brushGreen = 만드러 놓은 브러쉬 가져오기
 			graphics.DrawRectangle(&penRed, 100, 100, 200, 200); //위랑 마찬가지
 
-			graphics.FillEllipse(&brushGreen, 300, 100, 200, 200);
-			graphics.DrawEllipse(&penRed, 300, 100, 200, 200);
-
-
+			graphics.FillEllipse(&brushGreen, 300, 100, 200, 200); // 필 원형 채우기
+			graphics.DrawEllipse(&penRed, 300, 100, 200, 200);// 드로우 는 그리기
 
 
 

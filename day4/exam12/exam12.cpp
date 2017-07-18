@@ -20,7 +20,7 @@ int main()
 
 	char szBuf[256];
 	printf("당신의 이름은 무엇입니까?");
-	scanf_s("%s", szBuf,256);// 뒤에 size를 붙여줘야한다.
+	scanf_s("%s", szBuf,sizeof(szBuf));//뒤에 size를 붙여줘야한다.(szBuf의 크기가 256이니 256도 괜찮다)
 
 	printf("안녕하세요 %s 님!",szBuf);
 

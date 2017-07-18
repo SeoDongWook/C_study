@@ -152,7 +152,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
 	case WM_CREATE:
 	{
-		SetTimer(hWnd, 1, 100, NULL); //시간
+		SetTimer(hWnd, 1, 1000, NULL); //시간
 	}
 	break;
 

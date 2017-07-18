@@ -14,7 +14,7 @@ int main()
 	word[3] = 'E';
 	word[4] = 'WO'; //0x00, NULL
 
-	printf("%s", word);
+	printf("%s\n", word);
 
 	//word[0] = 'ป็';
 	//word[1] = 'ถ๛';

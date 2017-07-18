@@ -160,7 +160,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 				/*
-				
+				 
 				TCHAR szTemp[64];
 				int nTempIndex = 0;
 				int nSum = 0;

@@ -210,8 +210,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	{
 		TCHAR szBuf[256];
 		wsprintf(szBuf, L"좌 버튼업 위치 : %d, %d \n",
-			LOWORD(lParam), //x좌표
-			HIWORD(lParam)  //y좌표
+			LOWORD(lParam), //x좌표.
+			HIWORD(lParam)  //y좌표.
 		);
 
 		HDC hDC = GetDC(hWnd);
@@ -227,8 +227,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	{
 		TCHAR szBuf[256];
 		wsprintf(szBuf, L"우 버튼업 위치 : %d, %d \n",
-			LOWORD(lParam), //x좌표
-			HIWORD(lParam)  //y좌표
+			LOWORD(lParam), //x좌표.
+			HIWORD(lParam)  //y좌표.
 		);
 
 		HDC hDC = GetDC(hWnd);

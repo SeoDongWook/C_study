@@ -142,7 +142,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			WS_CHILD | WS_VISIBLE | BS_AUTORADIOBUTTON,
 			10, 60, 100, 30,
 			hWnd, (HMENU)6001, hInst, NULL);
-		//-----------------------------------------------------------
+		//-----------------------------------------------------------------------------
 		hRBtn4 = CreateWindow(L"button", L"원",
 			WS_CHILD | WS_VISIBLE | BS_AUTORADIOBUTTON|WS_GROUP,//각자 하나씩 그룹
 			200, 20, 100, 30,
@@ -157,8 +157,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			WS_CHILD | WS_VISIBLE | BS_AUTORADIOBUTTON,
 			200, 60, 100, 30,
 			hWnd, (HMENU)60013, hInst, NULL);
-		CheckRadioButton(hWnd, 6001, 6003, 6002);
-		CheckRadioButton(hWnd, 6011, 6013, 6012);
+		CheckRadioButton(hWnd, 6001, 6003, 6002); //그룹만들어 주는역할
+		CheckRadioButton(hWnd, 6011, 6013, 6012); //
 	}
 	break;
     case WM_COMMAND:

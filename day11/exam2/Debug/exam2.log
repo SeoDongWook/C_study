@@ -1,3 +1,5 @@
-﻿  exam2.cpp
+﻿  2.cpp
+c:\users\kict-11\desktop\c_study\day11\exam2\2.cpp(14): warning C4172: 지역 변수 또는 임시: buf의 주소를 반환하고 있습니다.
+c:\users\kict-11\desktop\c_study\day11\exam2\2.cpp(8): warning C4172: 지역 변수 또는 임시: buf의 주소를 반환하고 있습니다.
   exam2.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day11\Debug\exam2.exe
   exam2.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day11\Debug\exam2.pdb (Partial PDB)

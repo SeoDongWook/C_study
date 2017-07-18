@@ -16,6 +16,7 @@ int main()
 	int nSum = 0;
 	for (int i = 0; i < sizeof(szInputBuf) / sizeof(char); i++) { // sizeof(char) 는 sizeof(szInputBuf[0]) 과 같은뜻.
 		if (szInputBuf[i] == ',' || szInputBuf[i] == 0) {
+			//if (szInputBuf[i] == ',' || i == sizeof(szInputBuf) / sizeof(char)-1) {
 			//break; 
 			szTemp[nTempIndex] = NULL;
 

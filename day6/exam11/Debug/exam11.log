@@ -1,5 +1,5 @@
 ﻿  exam11.cpp
-c:\users\kict-11\desktop\c_study\day6\exam11\mywin32_engine.h(27): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kict-11\desktop\c_study\day6\exam11\mywin32_engine.h(41): warning C4477: 'swprintf_s' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+c:\users\kict-11\desktop\c_study\day6\exam11\mywin32_engine.h(29): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kict-11\desktop\c_study\day6\exam11\mywin32_engine.h(43): warning C4477: 'swprintf_s' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
   exam11.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day6\Debug\exam11.exe
   exam11.vcxproj -> C:\Users\KICT-11\Desktop\C_study\day6\Debug\exam11.pdb (Partial PDB)

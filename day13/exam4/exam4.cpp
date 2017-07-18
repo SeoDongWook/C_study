@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-int sum_int(void *pA, void *pB)
+void sum_int(void *pA, void *pB)
 {
 	int a = *(int *)pA;
 	int b = *(int *)pB;
@@ -16,7 +16,7 @@ void sum_double(void *pA, void *pB)
 	double a = *(double *)pA;
 	double b = *(double *)pB;
 
-	printf("%d \n", a + b);
+	printf("double sum : %d \n", a + b);
 }
 
 int main()
@@ -25,6 +25,7 @@ int main()
 
 	int a = 3;
 	int b = 4;
+
 	fpSum = sum_int;
 	fpSum(&a, &b);
 
